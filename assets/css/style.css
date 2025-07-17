@@ -25,7 +25,7 @@ footer{
     padding: 40px 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-    header {
+header {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
 }
@@ -156,7 +156,7 @@ a {
     text-decoration: none;
     color: white;
 }
-
+/* le display none nous permet de faire disparaitre l'image dans notre box sur la version mobile et tablette */
 img {
     display: none;
 }
