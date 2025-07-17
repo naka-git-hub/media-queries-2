@@ -21,9 +21,6 @@ h1 {
     padding: 40px;
 }
 
-main {
-    background-color: rgb(255, 255, 255);
-}
 
 footer{
     background-color: rgb(0, 0, 0);
@@ -37,9 +34,13 @@ footer{
     justify-content: center;
 }
 
+/* -----------------------------------------------------------------------------------------------
+---------------------MOBILE VERSION, MAX-WIDTH 599PX DONC DE 0 à 599PX----------------------------
+-------------------------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 599px) {
 main {
+    background-color: rgb(255, 255, 255);
     padding: 20px 0;
 }
 
@@ -83,5 +84,50 @@ h2{
     display: flex;
     align-items: center;
 }
+p{
+    display:none;
+}
 }
 
+
+/* -----------------------------------------------------------------------------------------------
+-----------TABLET VERSION, MIN-WIDTH DE 600PX MAX WIDTH 1023 PX DONC DE 600 à 1023px--------------
+-------------------------------------------------------------------------------------------------- */
+@media screen and (min-width: 600px) and (max-width:1023px) {
+
+main{
+    background-color: rgb(217, 217, 217);
+    padding: 20px 0;
+}
+.sectionContainer {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.articleContainer{
+    background-color: rgb(247, 247, 247);
+    width: 15%;
+    border-radius: 15px;
+    padding: 20px 20px 20px 40px;
+    margin: 20px auto;
+    border: solid rgb(34, 34, 34);
+    position: relative;
+}
+
+a {
+    background-color: rgb(34, 34, 34);
+    border-radius: 15px;
+    padding: 10px;
+    position:absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+}
