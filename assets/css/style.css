@@ -1,0 +1,87 @@
+/* ------------------------------------------------------------
+--------------------CSS GLOBAL---------------------------------
+--------------------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 40px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 599px) {
+main {
+    padding: 20px 0;
+}
+
+.sectionContainer {
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sectionContainer div {
+    flex-wrap: wrap;
+    background-color: rgb(247, 247, 247);
+    width: 30%;
+    padding: 20px;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+
+.articleContainer {
+    background-color: rgb(247, 247, 247);
+    width: 50%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 20px 70px;
+    margin: 20px auto;
+}
+
+a {
+    background-color: rgb(175, 76, 15);
+    list-style-type: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+}
+}
+
